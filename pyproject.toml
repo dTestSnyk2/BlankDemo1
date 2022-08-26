@@ -6,6 +6,7 @@ authors = ["DuncanAtWoolworths <dandrews3@woolworths.com.au>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+certifi = "^2022.6.15"
 
 [tool.poetry.dev-dependencies]
 
