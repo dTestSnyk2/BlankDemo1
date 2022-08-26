@@ -3,7 +3,6 @@ print('some innocuous code output')
 print('some innocuous code output')
 print('some innocuous code output')
 
-import certifi
 
 ###import re
 ###import string
