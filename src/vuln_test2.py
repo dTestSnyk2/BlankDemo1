@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 print("some random code")
-####import requests, subprocess, shlex, hashlib  
-####
-####address = requests.request("get", "http://127.0.0.1/nothinghere")
-####
-####cmd = "ping -c 1 %s" % address
-####subprocess.Popen(cmd, shell=True)
+import requests, subprocess, shlex, hashlib  
+
+address = requests.request("get", "http://127.0.0.1/nothinghere")
+
+cmd = "ping -c 1 %s" % address
+subprocess.Popen(cmd, shell=True)
 
 #The loophole is glaring, and any command that we put in as an address is executed on the application server. All an attacker has to do is add a semi-column and then put in whatever commands they want. For example, google.com ; ls -la. Fixing this is easy, though, because Python provides built-in functions to remedy this. 
 #Python
